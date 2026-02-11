@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoel Soto | Portafolio OrbitechX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-gray-800 font-sans">
+
+    <nav class="bg-slate-900 text-white p-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-xl font-bold tracking-widest text-blue-400">ORBITECHX</h1>
+            <div class="space-x-6 text-sm md:text-base">
+                <a href="#proyectos" class="hover:text-blue-400 transition">Proyectos</a>
+                <a href="#habilidades" class="hover:text-blue-400 transition">Habilidades</a>
+                <a href="#contacto" class="hover:text-blue-400 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-white py-16 md:py-24 border-b">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-2/3">
+                <h2 class="text-5xl font-extrabold text-slate-900 mb-2">Yoel Soto</h2>
+                <p class="text-xl text-blue-600 font-medium mb-6 uppercase tracking-wider">Software Engineer & Developer</p>
+                <p class="text-gray-600 text-lg max-w-xl mb-8 leading-relaxed">
+                    Especializado en el desarrollo de aplicaciones y gestión de bases de datos. 
+                    Enfocado en crear soluciones tecnológicas eficientes, desde sistemas de escritorio hasta plataformas e-commerce modernas.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#proyectos" class="bg-slate-900 text-white px-6 py-3 rounded hover:bg-slate-800 transition font-bold">Ver Portafolio</a>
+                    <a href="#contacto" class="border-2 border-slate-900 text-slate-900 px-6 py-3 rounded hover:bg-slate-100 transition font-bold">Contacto</a>
+                </div>
+            </div>
+            <div class="md:w-1/3 mt-12 md:mt-0 flex justify-center">
+                <div class="w-56 h-56 bg-slate-200 rounded-2xl rotate-3 border-4 border-slate-900 overflow-hidden shadow-xl hover:rotate-0 transition duration-300">
+                    <img src="Image/Foto_Perfil.jpeg" alt="Yoel Soto" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Swiper removed: using static project cards -->
+
+    <section id="proyectos" class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-slate-900 mb-12 flex items-center">
+                <span class="w-12 h-1 bg-blue-600 mr-4"></span> Proyectos Destacados
+            </h3>
+
+            <div class="grid gap-8 md:grid-cols-3 pb-12">
+                <a href="projects/amplipython.html" class="project-link block" data-url="projects/amplipython.html">
+                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden h-full hover:shadow-md transition">
+                        <div class="h-48 bg-slate-800 flex items-center justify-center text-blue-400">
+                            <i class="fas fa-guitar text-5xl"></i>
+                        </div>
+                        <div class="p-8">
+                            <h4 class="text-xl font-bold text-slate-900 mb-2 italic">AmpliPython</h4>
+                            <p class="text-gray-600 mb-6 text-sm leading-relaxed">Simulador de amplificadores y efectos para guitarra. Combina procesamiento de audio con interfaces gráficas avanzadas.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-[10px] font-bold px-2 py-1 bg-blue-50 text-blue-700 rounded uppercase">Python</span>
+                                <span class="text-[10px] font-bold px-2 py-1 bg-blue-50 text-blue-700 rounded uppercase">Audio DSP</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="projects/osver.html" class="project-link block" data-url="projects/osver.html">
+                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden h-full hover:shadow-md transition">
+                        <div class="h-48 bg-slate-100 flex items-center justify-center text-slate-400">
+                            <i class="fas fa-shopping-bag text-5xl"></i>
+                        </div>
+                        <div class="p-8">
+                            <h4 class="text-xl font-bold text-slate-900 mb-2 italic">E-commerce Osver Deportes</h4>
+                            <p class="text-gray-600 mb-6 text-sm leading-relaxed">Desarrollo de página de ventas personalizada para uniformes deportivos con gestión de base de datos.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-[10px] font-bold px-2 py-1 bg-blue-50 text-blue-700 rounded uppercase">PHP</span>
+                                <span class="text-[10px] font-bold px-2 py-1 bg-blue-50 text-blue-700 rounded uppercase">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="projects/ciidir.html" class="project-link block" data-url="projects/ciidir.html">
+                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden h-full hover:shadow-md transition">
+                        <div class="h-48 bg-slate-100 flex items-center justify-center text-slate-400">
+                            <i class="fas fa-file-invoice text-5xl"></i>
+                        </div>
+                        <div class="p-8">
+                            <h4 class="text-xl font-bold text-slate-900 mb-2 italic">Gestión CIIDIR Guasave</h4>
+                            <p class="text-gray-600 mb-6 text-sm leading-relaxed">Sistema para automatizar el registro y seguimiento de días económicos del personal del centro.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-[10px] font-bold px-2 py-1 bg-blue-50 text-blue-700 rounded uppercase">Java</span>
+                                <span class="text-[10px] font-bold px-2 py-1 bg-blue-50 text-blue-700 rounded uppercase">C++</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper JS removed; static project pages used instead -->
+    <section id="habilidades" class="py-20 bg-white">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16">
+            
+            <div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-10 italic">Aptitudes Técnicas</h3>
+                <div class="space-y-6">
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold">Lenguajes de Programación</span>
+                        </div>
+                        <p class="text-gray-600 italic">Java, C++, Python, PHP</p>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold">Desarrollo & Base de Datos</span>
+                        </div>
+                        <p class="text-gray-600 italic">SQL, HTML, CSS, Backend Development</p>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold">Habilidades Blandas</span>
+                        </div>
+                        <p class="text-gray-600 italic">Resolución de problemas, Adaptabilidad, Trabajo en Equipo</p>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold">Desarrollo Web y CMS</span>
+                        </div>
+                        <div class="text-gray-600 italic space-y-2">
+                            <p>Dominio de PHP y MySQL para creación de sistemas personalizados y bases de datos.</p>
+                            <p>Gestión avanzada de WordPress (Personalización de temas, plugins y maquetadores como Elementor/Divi).</p>
+                            <p>Desarrollo Front-end: HTML5, CSS3 y JavaScript básico.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold">Programación y Lógica de Datos</span>
+                        </div>
+                        <div class="text-gray-600 italic space-y-2">
+                            <p>Desarrollo en Python enfocado a procesamiento de lógica y automatización de tareas.</p>
+                            <p>Análisis y Manejo de Datos: Estructuración de información para la toma de decisiones y reportes de rendimiento.</p>
+                            <p>Control de versiones con Git y GitHub.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100">
+                <h3 class="text-2xl font-bold text-slate-900 mb-8 italic">Más allá del código</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <i class="fas fa-code text-blue-600 mt-1 mr-4"></i>
+                        <span>Desarrollo de proyectos personales y exploración de nuevas tecnologías.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-music text-blue-600 mt-1 mr-4"></i>
+                        <span>Interés por la música y su relación con la tecnología musical.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-graduation-cap text-blue-600 mt-1 mr-4"></i>
+                        <span>Formación continua: Ingeniería en Software (UAdeO Guasave).</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-slate-900 text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto">
+                <h3 class="text-3xl font-bold mb-6 italic">Contacto</h3>
+                <p class="text-slate-400 mb-10 italic">Disponible para nuevos proyectos y colaboraciones de software.</p>
+                <div class="space-y-4">
+                    <a href="mailto:sotoyoel18@gmail.com" class="block text-xl hover:text-blue-400 transition underline decoration-blue-600 underline-offset-8">
+                        sotoyoel18@gmail.com
+                    </a>
+                    <p class="text-xl">
+                        <i class="fas fa-phone-alt text-blue-400 mr-2"></i> +52 998 145 2516
+                    </p>
+                </div>
+                <div class="mt-16 text-slate-600 text-sm">
+                    &copy; 2026 OrbitechX | Yoel Soto
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Open projects in the same tab instead of new windows
+        (function(){
+            document.querySelectorAll('.project-link').forEach((a) => {
+                a.addEventListener('click', function(e){
+                    // allow modifier clicks (ctrl/cmd/middle) to open in new tab
+                    if (e.ctrlKey || e.metaKey || e.button === 1) return;
+                    e.preventDefault();
+                    const url = a.getAttribute('data-url') || a.href;
+                    window.location.href = url;
+                });
+            });
+        })();
+    </script>
+
+</body>
+</html>

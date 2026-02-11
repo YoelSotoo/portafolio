@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmpliPython — Detalles | OrbitechX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body class="bg-slate-50 text-gray-800 font-sans">
+    <nav class="bg-slate-900 text-white p-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-xl font-bold tracking-widest text-blue-400">ORBITECHX</h1>
+            <div class="space-x-4">
+                <a href="../index.html" class="text-sm hover:text-blue-400">Volver</a>
+            </div>
+        </div>
+    </nav>
+    <main class="container mx-auto px-6 py-12">
+        <div class="bg-white rounded-2xl shadow p-8">
+            <div class="md:flex md:gap-8 items-center">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-4">AmpliPython</h2>
+                    <p class="text-gray-600 mb-4">Proyecto de simulación de amplificadores y efectos para guitarra con procesamiento de audio en tiempo real y GUI para controlar parámetros.</p>
+                    <div class="mb-4">
+                        <h3 class="font-bold mb-2">Mi rol</h3>
+                        <p class="text-gray-600">Desarrollo del motor de audio, diseño de presets y la interfaz gráfica de usuario.</p>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="font-bold mb-2">Tecnologías</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-[12px] px-3 py-1 bg-blue-50 text-blue-700 rounded font-bold uppercase">Python</span>
+                            <span class="text-[12px] px-3 py-1 bg-blue-50 text-blue-700 rounded font-bold uppercase">Audio DSP</span>
+                            <span class="text-[12px] px-3 py-1 bg-blue-50 text-blue-700 rounded font-bold uppercase">PyQt</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="font-bold mb-2">Logros</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Motor de efectos con baja latencia para pruebas en tiempo real.</li>
+                            <li>Interfaz intuitiva para presets y rutas de señal.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-8 md:mt-0">
+                    <div class="swiper mySwiper rounded-xl overflow-hidden shadow-lg">
+                        <div class="swiper-wrapper bg-white">
+                            <div class="swiper-slide flex items-center justify-center bg-slate-100">
+                                <img src="../Image/AmpliPython/WhatsApp Image 2026-02-10 at 7.02.09 PM.jpeg" alt="AmpliPython screenshot" class="w-full h-64 object-cover">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next text-slate-800"></div>
+                        <div class="swiper-button-prev text-slate-800"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-slate-900 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center text-slate-400 text-sm">&copy; 2026 OrbitechX | Yoel Soto</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.mySwiper', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+        });
+    </script>
+</body>
+</html>
